@@ -18,6 +18,7 @@ public class JobForm {
     @NotNull
     @Size(min=1, message = "Name may not be empty")
     private String name;
+
     private Location location;
     private CoreCompetency coreCompetency;
     private PositionType positionType;
